@@ -7,7 +7,7 @@ const CryptoJS = require("crypto-js");
 
 const app = express();
 
-const uri = "mongodb+srv://kashishraj7277:sonu123@cluster0.q02uknc.mongodb.net/userDB";
+const uri = "mongodb+srv://<username>:<password>@cluster0.q02uknc.mongodb.net/userDB";
 const client = new MongoClient(uri);
 
 app.use(express.static("public"));
